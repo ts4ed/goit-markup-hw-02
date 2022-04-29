@@ -31,9 +31,7 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.link:hover {
-  color: var(--accent-text-color);
-}
+.link:hover,
 .link:focus {
   color: var(--accent-text-color);
 }
@@ -68,10 +66,7 @@ body {
   background-color: var(--accent-text-color);
   color: var(--primary-bg-color);
 }
-.button.primary:hover {
-  background-color: var(--primary-bg-color);
-  color: var(--accent-text-color);
-}
+.button.primary:hover,
 .button.primary:focus {
   background-color: var(--primary-bg-color);
   color: var(--accent-text-color);
@@ -86,14 +81,12 @@ body {
   background-color: var(--third-bg-color);
   color: var(--secondary-text-color);
 }
-.button.secondary:hover {
-  background-color: var(--accent-text-color);
-  color: var(--third-color-text);
-}
+.button.secondary:hover,
 .button.secondary:focus {
   background-color: var(--accent-text-color);
   color: var(--third-color-text);
 }
+
 
 
 /* Header */
@@ -121,9 +114,7 @@ body {
 
   color: var(--secondary-text-color);
 }
-.nav .link:hover {
-  color: var(--accent-text-color);
-}
+.nav .link:hover,
 .nav .link:focus {
   color: var(--accent-text-color);
 }
@@ -204,12 +195,11 @@ body {
 .footer .info {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer .info:hover {
-  color: var(--accent-text-color);
-}
+.footer .info:hover,
 .footer .info:focus {
   color: var(--accent-text-color);
 }
+
 
 /* Portfolio */
 
