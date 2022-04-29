@@ -1,3 +1,13 @@
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
@@ -89,7 +99,7 @@ body {
 /* Header */
 
 /* Logo */
-.logo {
+.link-logo {
   font-family: 'Raleway' sans-serif;
   font-style: 400;
   font-weight: 700;
@@ -98,6 +108,8 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
+
+  text-decoration: none;
 }
 
 /* Nav */
@@ -186,6 +198,9 @@ body {
   color: var(--third-color-text);
 }
 
+.footer .link.map{
+  color: var(--third-color-text);
+}
 .footer .info {
   color: rgba(255, 255, 255, 0.6);
 }
